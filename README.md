@@ -38,7 +38,7 @@ train
 
 Put the training images into 'images' file under the 'data' file in the project. The project structure is:
 ```
-yolov5-master-SVHN
+VRDL_HW2
   +- data
     +- images
       +- digitStruct.mat
