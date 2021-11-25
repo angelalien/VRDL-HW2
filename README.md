@@ -98,7 +98,7 @@ After running, you will get an output file: answer.json for submission
 ## Result
 
 My model achieves the following performance on CodaLab:
-| Model name               | Top 1 Accuracy  |
-| ------------------------ |---------------- |
-| YOLOv5m finetuned model  |        40.26%   |
-| YOLOv5s finetuned model  |        39.63%   |
+| Model name               | Top 1 mAP  |
+| ------------------------ |----------- |
+| YOLOv5m finetuned model  |   40.26%   |
+| YOLOv5s finetuned model  |   39.63%   |
