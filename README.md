@@ -76,7 +76,8 @@ After running, you will get some output files in './VRDL_HW2/runs' file
 
 You can download pretrained models here:
 
-- [My model](https://drive.google.com/file/d/1Wu2p1zkpzu16YI8LIXH-5y7ud3BCAYY2/view?usp=sharing) trained on given number dataset.
+- [YOLOv5m finetuned model](https://drive.google.com/file/d/1rSobTs4LKR3nlNpgxU2ddupZPxLRTm0G/view?usp=sharing) trained and finetuned based on weight YOLOv5m.pt.
+- [YOLOv5s finetuned model](https://drive.google.com/file/d/1Wu2p1zkpzu16YI8LIXH-5y7ud3BCAYY2/view?usp=sharing) trained and finetuned based on weight YOLOv5s.pt.
   
 
 Model's hyperparameter setting:
@@ -97,6 +98,7 @@ After running, you will get an output file: answer.json for submission
 ## Result
 
 My model achieves the following performance on CodaLab:
-| Model name         | Top 1 Accuracy  |
-| ------------------ |---------------- |
-| Model              |        40.26%   |
+| Model name               | Top 1 Accuracy  |
+| ------------------------ |---------------- |
+| YOLOv5m finetuned model  |        40.26%   |
+| YOLOv5s finetuned model  |        39.63%   |
