@@ -99,4 +99,4 @@ After running, you will get an output file: answer.json for submission
 My model achieves the following performance on CodaLab:
 | Model name         | Top 1 Accuracy  |
 | ------------------ |---------------- |
-| Model              |        39.63%   |
+| Model              |        40.26%   |
