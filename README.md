@@ -101,4 +101,4 @@ My model achieves the following performance on CodaLab:
 | Model name  | Top 1 mAP    |
 | ----------- |------------- |
 | My model_m  |     40.26%   |
-| My model_m  |     40.14%   |
+| My model_s  |     40.14%   |
