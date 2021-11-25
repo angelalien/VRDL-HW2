@@ -76,14 +76,14 @@ After running, you will get some output files in './VRDL_HW2/runs' file
 
 You can download pretrained models here:
 
-- [YOLOv5m finetuned model](https://drive.google.com/file/d/1rSobTs4LKR3nlNpgxU2ddupZPxLRTm0G/view?usp=sharing) trained and finetuned based on weight YOLOv5m.pt.
-- [YOLOv5s finetuned model](https://drive.google.com/file/d/1Wu2p1zkpzu16YI8LIXH-5y7ud3BCAYY2/view?usp=sharing) trained and finetuned based on weight YOLOv5s.pt.
+- [My model_m](https://drive.google.com/file/d/1rSobTs4LKR3nlNpgxU2ddupZPxLRTm0G/view?usp=sharing) trained and finetuned based on weight YOLOv5m.pt for 10 epochs.
+- [My model_s](https://drive.google.com/file/d/1EMrVMWGIDxIle9gH7jDbufuNvp-f5_iu/view?usp=sharing) trained and finetuned based on weight YOLOv5s.pt for 20 epochs.
   
 
 Model's hyperparameter setting:
 
 -  batch size = 16
--  epochs = 10
+-  epochs = 10(My model_m), 20(My model_s)
 -  initial learning rate=0.01, momentum=0.937, weight_decay=0.0005
 -  warmup_epochs=3, warmup_momentum=0.8, warmup_bias_lr=0.1
 
@@ -98,7 +98,7 @@ After running, you will get an output file: answer.json for submission
 ## Result
 
 My model achieves the following performance on CodaLab:
-| Model name               | Top 1 mAP  |
-| ------------------------ |----------- |
-| YOLOv5m finetuned model  |   40.26%   |
-| YOLOv5s finetuned model  |   39.63%   |
+| Model name  | Top 1 mAP    |
+| ----------- |------------- |
+| My model_m  |     40.26%   |
+| My model_m  |     40.14%   |
